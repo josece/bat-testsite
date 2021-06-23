@@ -1,112 +1,160 @@
 @import "static/assets/css/bootstrap";
 @font-face {
-    font-family: "Poppins";
-    src: url("/assets/fonts/poppins/Poppins-Regular.ttf");
+	font-family: "Poppins";
+	src: url("/assets/fonts/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/poppins/Poppins-SemiBold.ttf");
+	font-weight: 600;
 }
 
 body{
-	 font-family: Poppins;
+	font-family: Poppins;
 }
 
-
 .img {
-    background-image: url(/assets/img/sprite.png);
-    background-repeat: no-repeat;
-    display: block;
+	background-image: url(/assets/img/sprite.png);
+	background-repeat: no-repeat;
+	display: block;
 }
 
 .img-BAT-logo-welcome {
-    width: 227px;
-    height: 221px;
-    background-position: -5px -5px;
+	width: 227px;
+	height: 221px;
+	background-position: -5px -5px;
 }
 
 .img-Bot {
-    width: 52px;
-    height: 52px;
-    background-position: -242px -5px;
+	width: 52px;
+	height: 52px;
+	background-position: -242px -5px;
 }
 
 .img-Fast-Safe {
-    width: 52px;
-    height: 52px;
-    background-position: -304px -5px;
+	width: 52px;
+	height: 52px;
+	background-position: -304px -5px;
 }
 
 .img-Info {
-    width: 52px;
-    height: 52px;
-    background-position: -366px -5px;
+	width: 52px;
+	height: 52px;
+	background-position: -366px -5px;
 }
 
 .img-Targeting {
-    width: 52px;
-    height: 52px;
-    background-position: -428px -5px;
+	width: 52px;
+	height: 52px;
+	background-position: -428px -5px;
 }
 
 .img-Union {
-    width: 30px;
-    height: 30px;
-    background-position: -490px -5px;
+	width: 30px;
+	height: 30px;
+	background-position: -490px -5px;
 }
 
 .img-Velocity {
-    width: 52px;
-    height: 52px;
-    background-position: -530px -5px;
+	width: 52px;
+	height: 52px;
+	background-position: -530px -5px;
 }
 
 .img-arrow-2-down {
-    width: 24px;
-    height: 24px;
-    background-position: -592px -5px;
+	width: 24px;
+	height: 24px;
+	background-position: -592px -5px;
 }
 
 .img-bat-logo-1 {
-    width: 97px;
-    height: 96px;
-    background-position: -626px -5px;
+	width: 97px;
+	height: 96px;
+	background-position: -626px -5px;
 }
 
 .img-bra {
-    width: 48px;
-    height: 48px;
-    background-position: -733px -5px;
+	width: 48px;
+	height: 48px;
+	background-position: -733px -5px;
 }
 
 .img-brave {
-    width: 84px;
-    height: 96px;
-    background-position: -791px -5px;
+	width: 84px;
+	height: 96px;
+	background-position: -791px -5px;
+}
+
+.img-brave-logo1 {
+	width: 24px;
+	height: 24px;
+	background-position: -885px -5px;
 }
 
 .img-ellipse {
-    width: 33px;
-    height: 33px;
-    background-position: -885px -5px;
+	width: 33px;
+	height: 33px;
+	background-position: -919px -5px;
 }
 
 .img-newspaper {
-    width: 20px;
-    height: 20px;
-    background-position: -928px -5px;
+	width: 20px;
+	height: 20px;
+	background-position: -962px -5px;
 }
 
 .img-play-filled {
-    width: 24px;
-    height: 24px;
-    background-position: -958px -5px;
+	width: 24px;
+	height: 24px;
+	background-position: -992px -5px;
 }
 
 .img-social-share {
-    width: 24px;
-    height: 24px;
-    background-position: -992px -5px;
+	width: 24px;
+	height: 24px;
+	background-position: -1026px -5px;
 }
 
 .img-taj {
-    width: 48px;
-    height: 48px;
-    background-position: -1026px -5px;
+	width: 48px;
+	height: 48px;
+	background-position: -1060px -5px;
+}
+
+
+
+#landing{
+	background-image: url(/assets/img/background.png);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+
+	.img-BAT-logo-welcome {
+		margin-inline: auto;
+	}
+	h1{
+		font-weight: 600;
+	}
+	p.intro{letter-spacing: 1px;}
+	button{
+		color: white;
+		font-size: 14px;
+		border-radius: 5vh;
+		min-width: 22vh;
+		padding-top: 0.7vh;
+		padding-bottom: 0.7vh;
+		&.video-btn{
+			background: #4C54D2;
+		}
+		&.brave-btn{
+			border: solid 1px rgba(255,255,255, .36);
+		}
+		.img{
+			display: inline-block;
+			margin-bottom: -5px;
+			margin-right:10px ;
+		}
+	}
+
+	
 }

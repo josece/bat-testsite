@@ -7927,16 +7927,28 @@ textarea.form-control-lg {
   font-family: "Poppins";
   src: url("/assets/fonts/poppins/Poppins-Regular.ttf"); }
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/assets/fonts/poppins/Poppins-SemiBold.ttf");
-  font-weight: 600; }
-
 body {
   font-family: Poppins; }
 
+#landing {
+  background-image: url(/assets/img/background.png);
+  background-size: cover;
+  background-position: center center;
+  color: white; }
+  #landing .img-BAT-logo-welcome {
+    margin-inline: auto; }
+  #landing button {
+    color: white; }
+    #landing button.video-btn {
+      background: #4C54D2;
+      border-radius: 5vh;
+      min-width: 25vh; }
+    #landing button img {
+      display: inline-block;
+      width: 10px; }
+
 .img {
-  background-image: url(/assets/img/sprite.png);
+  background-image: url(spritesheet.png);
   background-repeat: no-repeat;
   display: block; }
 
@@ -8024,30 +8036,3 @@ body {
   width: 48px;
   height: 48px;
   background-position: -1060px -5px; }
-
-#landing {
-  background-image: url(/assets/img/background.png);
-  background-size: cover;
-  background-position: center center;
-  color: white; }
-  #landing .img-BAT-logo-welcome {
-    margin-inline: auto; }
-  #landing h1 {
-    font-weight: 600; }
-  #landing p.intro {
-    letter-spacing: 1px; }
-  #landing button {
-    color: white;
-    font-size: 14px;
-    border-radius: 5vh;
-    min-width: 22vh;
-    padding-top: 0.7vh;
-    padding-bottom: 0.7vh; }
-    #landing button.video-btn {
-      background: #4C54D2; }
-    #landing button.brave-btn {
-      border: solid 1px rgba(255, 255, 255, 0.36); }
-    #landing button .img {
-      display: inline-block;
-      margin-bottom: -5px;
-      margin-right: 10px; }
