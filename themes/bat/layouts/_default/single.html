@@ -1,0 +1,18 @@
+
+{{ define "main" }}
+{{- partial "header.html" . -}}
+    <main>
+        <aside>
+            <a href="/">Home</a>
+            {{ .TableOfContents }}
+        </aside>
+        <article> 
+            <header>
+                <h1>{{ .Title }}</h1>
+            </header>
+            <p class="date">Last updated {{ .Page.Lastmod.Format "January 1, 2006" }}</p>
+            {{ .Content }}
+        </article>
+    </main>
+    
+{{ end }}
