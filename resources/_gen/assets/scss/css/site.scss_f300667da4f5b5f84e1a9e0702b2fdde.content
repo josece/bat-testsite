@@ -8025,11 +8025,16 @@ body {
   height: 48px;
   background-position: -1060px -5px; }
 
+a {
+  color: #4C54D2;
+  text-decoration: none; }
+
 #landing {
   background-image: url(/assets/img/background.png);
   background-size: cover;
   background-position: center center;
-  color: white; }
+  color: white;
+  padding-bottom: 250px; }
   #landing .img-BAT-logo-welcome {
     margin-inline: auto; }
   #landing h1 {
@@ -8051,3 +8056,18 @@ body {
       display: inline-block;
       margin-bottom: -5px;
       margin-right: 10px; }
+
+#hero {
+  margin-top: -250px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px #c7c7c7; }
+  #hero h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px; }
+  #hero a {
+    font-weight: 700;
+    font-size: 14px; }
+    #hero a .img {
+      display: inline-block; }
