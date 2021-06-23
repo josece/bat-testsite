@@ -7933,7 +7933,8 @@ textarea.form-control-lg {
   font-weight: 600; }
 
 body {
-  font-family: Poppins; }
+  font-family: Poppins;
+  background: #F8F8F8; }
 
 .img {
   background-image: url(/assets/img/sprite.png);
@@ -8029,6 +8030,9 @@ a {
   color: #4C54D2;
   text-decoration: none; }
 
+h1 {
+  font-weight: 600; }
+
 #landing {
   background-image: url(/assets/img/background.png);
   background-size: cover;
@@ -8037,8 +8041,6 @@ a {
   padding-bottom: 250px; }
   #landing .img-BAT-logo-welcome {
     margin-inline: auto; }
-  #landing h1 {
-    font-weight: 600; }
   #landing p.intro {
     letter-spacing: 1px; }
   #landing button {
@@ -8061,9 +8063,8 @@ a {
   margin-top: -250px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0px 5px 10px #c7c7c7; }
+  box-shadow: 0px 5px 10px rgba(50, 50, 50, 0.5); }
   #hero h1 {
-    font-weight: 700;
     font-size: 30px;
     line-height: 40px; }
   #hero a {
@@ -8071,3 +8072,29 @@ a {
     font-size: 14px; }
     #hero a .img {
       display: inline-block; }
+
+#challenge {
+  background: #F8F8F8;
+  margin-top: 80px; }
+  #challenge h2 {
+    font-size: 17px; }
+  #challenge section {
+    margin-bottom: 30px; }
+    #challenge section .section-content {
+      height: 100%;
+      padding: 20px;
+      margin-right: 30px;
+      background: white;
+      border-radius: 10px; }
+      #challenge section .section-content h1 {
+        margin: 20px 0; }
+      #challenge section .section-content .img {
+        margin-bottom: 10px; }
+      #challenge section .section-content:last-child {
+        margin-right: 0; }
+      #challenge section .section-content ul {
+        padding-left: 20px; }
+        #challenge section .section-content ul li {
+          margin-bottom: 20px; }
+    #challenge section h1 {
+      font-size: 18px; }
