@@ -138,6 +138,8 @@ a{
 h1{
 	font-weight: 600;
 }
+
+.bg-burple{background: #edf0fe}
 #landing{
 	background-image: url(/assets/img/background.png);
 	background-size: cover;
@@ -275,7 +277,7 @@ h1{
 	padding-bottom: 60px;
 	.m-neg{
 		margin-top: -250px;
-		margin-bottom: 160px;
+		margin-bottom: 130px;
 		h1{
 			font-size: 55px;
 		}
@@ -301,6 +303,55 @@ h1{
 	}
 }
 
+#articles{
+	background: #F8F8F8;
+	padding: 5vh 0;
+	article{
+		background: white;
+		border: solid 1px #ddd;
+		border-radius: 10px;
+		.content{
+			padding: 3vh 5vh;
+		}
+		h1{
+			font-size: 18px;
+
+		}
+		h2{
+			margin-top: 30px;
+			text-transform: uppercase;
+			color: #868E96;
+			font-weight: 600;
+			font-size: 13px;
+		}
+		p{
+			margin: 20px 0 20px 0;
+			line-height: 25px;
+			font-size: 14px;
+		}
+		.read-more{
+			margin-top: 20px;
+			display: inline-block;
+			border: 1px solid #aaa;
+			border-radius: 5vh;
+			padding: 1.3vh 2.5vh;
+			color: black;
+			font-weight: 600;
+			font-size: 13px;
+			text-align: left;
+			.img{
+				display: inline-block;
+				margin-bottom: -7px;
+				margin-left: 10px;
+			}
+		}
+		.social-share{
+			float: right;
+			margin-top: 25px;
+		}
+	}
+
+}
 footer{
 	background: #28222E;
 	color: #F0F2FF;

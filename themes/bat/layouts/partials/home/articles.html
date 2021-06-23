@@ -1,0 +1,22 @@
+<div id="articles" class="my-5">
+	<div class="container">
+		{{ range .Site.RegularPages }}
+		<div class="col-lg-8 mx-auto">
+			<article class="row my-3">
+				<div class="col-4 bg-burple row">
+					<div class=" align-self-center">
+						<img src="assets/img/{{ .Params.image}}" class=" img-fluid "/>
+					</div>
+				</div>
+				<div class="content col-8">
+					<h2>{{ .Params.category }}</h2>
+					<h1>{{ .Title }}</h1>
+					<p>{{ .Description }}</p>
+					<a href="{{.Permalink}}" class="read-more">Read this article <i class="img img-arrow-2-down"></i></a>
+					<a href="#" target="_blank" class="social-share"><i class="img img-social-share"></i></a>
+				</div>
+			</article>
+		</div>
+		{{end}}
+	</div>
+</div>

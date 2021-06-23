@@ -8038,6 +8038,9 @@ a {
 h1 {
   font-weight: 600; }
 
+.bg-burple {
+  background: #edf0fe; }
+
 #landing {
   background-image: url(/assets/img/background.png);
   background-size: cover;
@@ -8143,7 +8146,7 @@ h1 {
   padding-bottom: 60px; }
   #how-it-works .m-neg {
     margin-top: -250px;
-    margin-bottom: 160px; }
+    margin-bottom: 130px; }
     #how-it-works .m-neg h1 {
       font-size: 55px; }
   @media (max-width: 991px) {
@@ -8159,6 +8162,45 @@ h1 {
     padding: 40px; }
     #how-it-works section h1 {
       font-size: 30px; }
+
+#articles {
+  background: #F8F8F8;
+  padding: 5vh 0; }
+  #articles article {
+    background: white;
+    border: solid 1px #ddd;
+    border-radius: 10px; }
+    #articles article .content {
+      padding: 3vh 5vh; }
+    #articles article h1 {
+      font-size: 18px; }
+    #articles article h2 {
+      margin-top: 30px;
+      text-transform: uppercase;
+      color: #868E96;
+      font-weight: 600;
+      font-size: 13px; }
+    #articles article p {
+      margin: 20px 0 20px 0;
+      line-height: 25px;
+      font-size: 14px; }
+    #articles article .read-more {
+      margin-top: 20px;
+      display: inline-block;
+      border: 1px solid #aaa;
+      border-radius: 5vh;
+      padding: 1.3vh 2.5vh;
+      color: black;
+      font-weight: 600;
+      font-size: 13px;
+      text-align: left; }
+      #articles article .read-more .img {
+        display: inline-block;
+        margin-bottom: -7px;
+        margin-left: 10px; }
+    #articles article .social-share {
+      float: right;
+      margin-top: 25px; }
 
 footer {
   background: #28222E;
