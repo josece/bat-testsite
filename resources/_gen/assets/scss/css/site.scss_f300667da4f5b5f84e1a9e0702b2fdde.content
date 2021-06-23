@@ -8131,3 +8131,26 @@ h1 {
     font-size: 18px; }
   #blockchain .drop-shadow {
     box-shadow: 0px 10px 15px rgba(50, 50, 50, 0.3); }
+
+#how-it-works {
+  background: #353DAB;
+  color: white;
+  padding-bottom: 60px; }
+  #how-it-works .m-neg {
+    margin-top: -250px;
+    margin-bottom: 160px; }
+    #how-it-works .m-neg h1 {
+      font-size: 55px; }
+  @media (max-width: 991px) {
+    #how-it-works .m-neg {
+      margin-top: 10px;
+      margin-bottom: 40px; } }
+  #how-it-works section {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 40px; }
+    #how-it-works section h1 {
+      font-size: 30px; }
