@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Basic Attention Token</title>
-    <link>https://josece.github.io/bat-testsite/</link>
-    <description>Recent content on Basic Attention Token</description>
+    <title>Articles on Basic Attention Token</title>
+    <link>https://josece.github.io/bat-testsite/articles/</link>
+    <description>Recent content in Articles on Basic Attention Token</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josece.github.io/bat-testsite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://josece.github.io/bat-testsite/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add an extension to Chrome?</title>
       <link>https://josece.github.io/bat-testsite/articles/how-to-add-an-extension-to-chrome/</link>

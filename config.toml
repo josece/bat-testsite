@@ -1,4 +1,4 @@
-baseURL = "https://josece.github.io"
+baseURL = "https://josece.github.io/bat-testsite"
 languageCode = "en-us"
 title = "Basic Attention Token"
 theme = "bat"
