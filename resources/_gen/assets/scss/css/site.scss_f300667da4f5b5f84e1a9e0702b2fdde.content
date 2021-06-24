@@ -8052,15 +8052,14 @@ figcaption {
   display: inline-block;
   border: 1px solid #aaa;
   border-radius: 5vh;
-  padding: 1.3vh 2.5vh;
+  padding: 1.3vh 1.7vh;
   color: black;
   font-weight: 600;
   font-size: 13px;
   text-align: left; }
   .read-more .img {
     display: inline-block;
-    margin-bottom: -7px;
-    margin-left: 10px; }
+    margin-bottom: -7px; }
 
 #landing {
   background-image: url(/assets/img/background.png);
@@ -8242,6 +8241,7 @@ figcaption {
 
 #single-article header {
   background: #17171F;
+  overflow: hidden;
   position: relative; }
   #single-article header h1 {
     color: white;

@@ -152,7 +152,7 @@ figcaption {
 	display: inline-block;
 	border: 1px solid #aaa;
 	border-radius: 5vh;
-	padding: 1.3vh 2.5vh;
+	padding: 1.3vh 1.7vh;
 	color: black;
 	font-weight: 600;
 	font-size: 13px;
@@ -160,7 +160,7 @@ figcaption {
 	.img{
 		display: inline-block;
 		margin-bottom: -7px;
-		margin-left: 10px;
+		
 	}
 }
 #landing{
@@ -400,6 +400,7 @@ figcaption {
 #single-article{
 	header{
 		background: #17171F;
+		overflow:hidden;
 		h1{
 			color: white;
 			padding: 100px 0;
