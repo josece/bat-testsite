@@ -1,0 +1,24 @@
+<div id="related-articles" class="my-5">
+	<div class="container">
+		<h1 class="text-center my-5">Related articles</h1>
+		<div class="row row-flex">
+			{{ range .Site.RegularPages }}
+			<div class="col-lg-4">
+				<article class="">
+					<div class="bg-burple">
+						<div class=" align-self-center">
+							<img src="/assets/img/{{ .Params.image}}" class=" img-fluid"/>
+						</div>
+					</div>
+					<div class="content">
+						<h2 class="d-lg-none">{{ .Params.category }}</h2>
+						<h1>{{ .Title }}</h1>
+						<p>{{ .Description }}</p>
+						<a href="{{.Permalink}}" class="read-more">Read this article <i class="img img-arrow-2-down"></i></a>
+					</div>
+				</article>
+			</div>
+			{{end}}
+		</div>
+	</div>
+</div>
