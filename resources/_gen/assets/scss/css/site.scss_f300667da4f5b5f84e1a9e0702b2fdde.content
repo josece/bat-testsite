@@ -7934,7 +7934,8 @@ textarea.form-control-lg {
 
 body {
   font-family: Poppins;
-  background: #F8F8F8; }
+  background: #F8F8F8;
+  color: #212529; }
 
 .img {
   background-image: url(/assets/img/sprite.png);
@@ -8310,16 +8311,25 @@ footer {
   background: #28222E;
   color: #F0F2FF;
   letter-spacing: 0.5px;
-  padding: 80px 0 0;
-  font-size: 13px; }
+  padding: 4em 0 0 0;
+  column-gap: 2em;
+  font-size: 0.85em; }
   footer a {
     color: #C2C4CF; }
   footer h1 {
-    font-size: 20px; }
+    font-size: 1.1em;
+    color: white;
+    font-weight: 400; }
+  footer h2 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 2em; }
   footer ul {
     margin: 0;
     padding: 25px 0 0 0;
     list-style: none; }
     footer ul li {
       color: #C2C4CF;
-      margin-bottom: 25px; }
+      line-height: 2.50em; }
+  footer .contact a {
+    text-decoration: underline; }
