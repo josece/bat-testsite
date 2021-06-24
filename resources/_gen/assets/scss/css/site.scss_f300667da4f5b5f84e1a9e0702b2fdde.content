@@ -8310,7 +8310,7 @@ footer {
   background: #28222E;
   color: #F0F2FF;
   letter-spacing: 0.5px;
-  padding: 80px 0;
+  padding: 80px 0 0;
   font-size: 13px; }
   footer a {
     color: #C2C4CF; }
