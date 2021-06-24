@@ -2,8 +2,8 @@
 title: "What is the Fastest Web Browser?"
 date: "2021-06-04"
 image: "private.png"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-category: "Fastest browser"
+description: "Some description text of this category here. Some description text. Some description text of this category here. "
+category: "Fastest Browser"
 ---
 
 

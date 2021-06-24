@@ -2,7 +2,7 @@
 title: "Which is the best free ad blocker?"
 date: "2021-06-04"
 image: "speed.png"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Some description text of this category here. Some description text. Some description text of this category here. "
 category: "Ad blocker"
 ---
 

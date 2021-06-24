@@ -146,10 +146,19 @@ figcaption {
 	color: #212529;
 }
 
-.bg-burple{background: #edf0fe}
+.bg-burple{
+	background: #edf0fe;
+	padding-left: 0;
+	padding-right: 0;
+	div{
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+}
 
 .read-more{
-	margin-top: 20px;
+	margin: 1.5vh 0 2.5vh;
 	display: inline-block;
 	border: 1px solid #aaa;
 	border-radius: 5vh;
@@ -179,11 +188,12 @@ figcaption {
 		color: white;
 		font-size: 14px;
 		border-radius: 5vh;
-		min-width: 22vh;
+		min-width: 17vh;
 		padding-top: 0.7vh;
 		padding-bottom: 0.7vh;
 		&.video-btn{
 			background: #4C54D2;
+			margin-right: 5px;
 		}
 		&.brave-btn{
 			border: solid 1px rgba(255,255,255, .36);
@@ -222,7 +232,7 @@ figcaption {
 		margin-bottom: 30px;
 		.section-content{
 			height: 100%;
-			padding: 20px;
+			padding: 30px;
 			margin-right: 30px;
 			
 			background: white;
@@ -266,7 +276,7 @@ figcaption {
 		&:before{
 			content: "";
 			background: #E9E9F4;
-			height: 100%;
+			height: 68%;
 			width: 2px;
 			display: block;
 			position: absolute;
@@ -334,8 +344,11 @@ figcaption {
 		background: white;
 		border: solid 1px #ddd;
 		border-radius: 10px;
+		margin-left: 0;
+		margin-right: 0;
+		overflow: hidden;
 		.content{
-			padding: 3vh 5vh;
+			padding: 3vh 2vh 3vh 5vh;
 		}
 		h1{
 			font-size: 18px;
@@ -346,7 +359,7 @@ figcaption {
 			text-transform: uppercase;
 			color: #868E96;
 			font-weight: 600;
-			font-size: 13px;
+			font-size: 11px;
 		}
 		p{
 			margin: 20px 0 20px 0;
@@ -409,11 +422,11 @@ figcaption {
 		position: relative;
 		.ml, .bl, .tl, .mr, .br, .tr{ position:absolute;}
 		.ml{top: 50%; left: 2%}
-		.bl{top: 80%; left: 8%}
+		.bl{bottom: -1%; left: 8%}
 		.tl{top: 5%; left: 5%}
 		.mr{top: 50%; right: -2%}
 		.br{top: 70%; right: 2%}
-		.tr{top: 1%; right: 4%}
+		.tr{top: -4%; right: -1%}
 	}
 	aside{
 		font-size: 0.9em;
@@ -465,7 +478,7 @@ footer{
 	color: #F0F2FF;
 	letter-spacing: 0.5px;
 	padding: 4em 0 0 0;
-    column-gap: 2em;
+	column-gap: 2em;
 	font-size: 0.85em;
 	a{
 		color:#C2C4CF;
@@ -491,6 +504,6 @@ footer{
 		}
 	}
 	.contact a{
-	text-decoration:underline;
+		text-decoration:underline;
 	}
 }
