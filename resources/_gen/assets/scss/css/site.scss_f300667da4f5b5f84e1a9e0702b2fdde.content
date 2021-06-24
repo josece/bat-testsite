@@ -8259,7 +8259,7 @@ figcaption {
     left: 5%; }
   #single-article header .mr {
     top: 50%;
-    right: 0%; }
+    right: -2%; }
   #single-article header .br {
     top: 70%;
     right: 2%; }
