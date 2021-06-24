@@ -2,7 +2,7 @@
 	<div class="container">
 		<h1 class="text-center my-5">Related articles</h1>
 		<div class="row row-flex">
-			{{ range .Site.RegularPages }}
+			{{ range first 3 .Site.RegularPages }}
 			<div class="col-lg-4">
 				<article class="">
 					<div class="bg-burple">
