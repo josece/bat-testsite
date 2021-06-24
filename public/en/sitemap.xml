@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/articles/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://brave.jaclabs.com/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brave.jaclabs.com/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/articles/how-to-add-an-extension-to-chrome/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/articles/what-is-the-fastest-web-browser/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/articles/which-is-the-best-free-ad-blocker/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/articles/which-is-the-best-free-ad-blockers/</loc>
+    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://brave.jaclabs.com/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brave.jaclabs.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://brave.jaclabs.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brave.jaclabs.com/en/tags/"
+                />
+  </url>
+  
+</urlset>

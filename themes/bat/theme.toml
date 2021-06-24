@@ -10,5 +10,5 @@ min_version = "0.59.1"
 
 # If the theme has a single author
 [author]
-    name = "Jose Calleja"
-    homepage = "https://calleja.mx"
+name = "Jose Calleja"
+homepage = "https://calleja.mx"

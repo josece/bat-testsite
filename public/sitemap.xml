@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://brave.jaclabs.com/articles/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://brave.jaclabs.com/en/sitemap.xml</loc>
+    
+      <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://brave.jaclabs.com/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://brave.jaclabs.com/es/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://brave.jaclabs.com/articles/how-to-add-an-extension-to-chrome/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brave.jaclabs.com/articles/what-is-the-fastest-web-browser/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brave.jaclabs.com/articles/which-is-the-best-free-ad-blocker/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brave.jaclabs.com/articles/which-is-the-best-free-ad-blockers/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brave.jaclabs.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://brave.jaclabs.com/tags/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>

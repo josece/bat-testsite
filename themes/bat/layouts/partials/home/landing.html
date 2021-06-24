@@ -1,10 +1,10 @@
 <div id="landing" class="text-center">
 	<div class="container pt-5">
 		<i class="img img-BAT-logo-welcome"></i>
-		<h1>Basic Attention Token</h1>
-		<p class="intro pb-3">Introducing blockchain based digital advertising</p>
+		<h1>{{ .Title }}</h1>
+		<p class="intro pb-3">{{ .Description }}</p>
 		<a href="#" class="video-btn btn"><i class="img img-play-filled"></i> <span>Video</span></a>
 		<a href="https://brave.com/cal158" class="brave-btn btn"><i class="img img-brave-logo1"></i> <span>Get Brave</span></a>
-		<p class="about mt-5 pb-4">From the creator of JavaScript and the co-founder of Mozilla and Firefox, with a solid team &mdash; funded by Founders Fund, Foundation Capital, Propel Venture Partners, Pantera Capital, DCG, Danhua Capital, and Huiyin Blockchain Venture among others.</p>
+		<p class="about mt-5 pb-4">{{ .Params.from}}</p>
 	</div>
 </div>

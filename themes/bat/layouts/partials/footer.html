@@ -5,12 +5,12 @@
 				<i class="img img-BAT mb-3"></i>
 				<h1>Basic Attention Token</h1>
 				<h2>Blockchain based digital advertising</h2>
-				<p>The Basic Attention Token is the new token for the digital advertising industry. It pays publishers for their content and users for their attention, while providing advertisers with more in return for their ads.</p>
+				<p>{{ .Param "bat_desc" }}</p>
 			</div>
 			<div class="col-lg-8">
 				<div class="row">
 					<div class="col-lg-3 col-sm-6 mb-5">
-						<h1>BAT Community</h1>
+						<h1>{{ .Param "communitybat" }}</h1>
 						<ul>
 							<li><a href="#">Reddit</a></li>
 							<li><a href="#">Telegram</a></li>
@@ -19,27 +19,27 @@
 						</ul>
 					</div>
 					<div class="col-lg-2 col-sm-6 mb-5">
-						<h1>Links</h1>
+						<h1>{{ .Param "links" }}</h1>
 						<ul>
-							<li><a href="#">BAT Shop</a></li>
+							<li><a href="#">{{ .Param "batshop" }}</a></li>
 							<li><a href="#">Brave Browser</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">{{ .Param "careers" }}</a></li>
+							<li><a href="#">{{ .Param "privacy" }}</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-3 col-sm-6 mb-5">
-						<h1>Terms of Service</h1>
+						<h1>{{ .Param "terms" }}</h1>
 						<ul>
-							<li><a href="#">Users</a></li>
-							<li><a href="#">Publishers</a></li>
-							<li><a href="#">Advertisers</a></li>
+							<li><a href="#">{{ .Param "users" }}</a></li>
+							<li><a href="#">{{ .Param "publishers" }}</a></li>
+							<li><a href="#">{{ .Param "advertisers" }}</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-5">
-						<h1>Contact</h1>
+						<h1>{{ .Param "contact" }}</h1>
 						<ul class="contact">
-							<li>Press <br /><a href="mailto:press&#64;basicattentiontoken.org">press&#64;basicattentiontoken.org</a></li>
-							<li>Questions <br /><a href="http://community.brave.com">community.brave.com</a></li>
+							<li>{{ .Param "press" }} <br /><a href="mailto:press&#64;basicattentiontoken.org">press&#64;basicattentiontoken.org</a></li>
+							<li>{{ .Param "questions" }} <br /><a href="http://community.brave.com">community.brave.com</a></li>
 						</ul>
 					</div>
 				</div>

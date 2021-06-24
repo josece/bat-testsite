@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://brave.jaclabs.com/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brave.jaclabs.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://brave.jaclabs.com/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brave.jaclabs.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://brave.jaclabs.com/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://brave.jaclabs.com/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://brave.jaclabs.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://brave.jaclabs.com/es/tags/"
+                />
+  </url>
+  
+</urlset>

@@ -1,5 +1,45 @@
 baseURL = "https://brave.jaclabs.com"
-languageCode = "en-us"
+languageCode = "en-EN"
 title = "Basic Attention Token"
+
 theme = "bat"
 
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+[params.navigation]
+
+[Languages]
+[Languages.en]
+weight = 1
+[Languages.en.params]
+communitybat = "BAT Community"
+terms = "Terms of Service"
+contact = "Contact"
+batshop = "BAT Shop"
+careers = "Careers"
+privacy = "Privacy Policy"
+users = "Users"
+advertisers = "Advertisers"
+publishers = "Publishers"
+press = "Press"
+questions = "Questions"
+links = "Links"
+bat_desc = "The Basic Attention Token is the new token for the digital advertising industry. It pays publishers for their content and users for their attention, while providing advertisers with more in return for their ads."
+
+[Languages.es]
+weight = 2
+[Languages.es.params]
+communitybat = "Comunidad BAT"
+terms = "Términos de Servicio"
+contact = "Contacto"
+batshop = "Tienda BAT"
+careers = "Carreras"
+privacy = "Política de Privacidad"
+users = "Usuarios"
+advertisers = "Anunciantes"
+publishers = "Creadores"
+press = "Prensa"
+questions = "Preguntas"
+links = "Enlaces"
+bat_desc = "El Basic Attention Token es el nuevo token para la industria de la publicidad digital. Paga a los editores por su contenido y a los usuarios por su atención, al tiempo que ofrece a los anunciantes más a cambio de sus anuncios."
